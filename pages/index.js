@@ -15,10 +15,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className="h-screen flex items-center justify-center bg-red-500">
-        <h1 className=" text-center animate-text bg-gradient-to-r from-red-900 via-purple-900 to-orange-900 bg-clip-text text-transparent text-7xl font-mono font-black p-4 sm:text-5xl">
+      <div className="h-screen flex items-center justify-center bg-red-500 w-full">
+        <div className="w-5/6">
+        <h1 className=" text-center animate-text bg-gradient-to-r from-red-900 via-purple-900 to-orange-900 bg-clip-text text-transparent text-5xl font-mono font-black p-4 sm:text-5xl ">
           Happy first year Anniversary!
         </h1>
+        </div>
+        
       </div>
     </>
   );
