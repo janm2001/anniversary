@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <div className="h-screen flex items-center justify-center bg-red-500">
-        <h1 className=" text-center animate-text bg-gradient-to-r from-red-900 via-purple-900 to-orange-900 bg-clip-text text-transparent text-7xl font-mono font-black p-4">
+        <h1 className=" text-center animate-text bg-gradient-to-r from-red-900 via-purple-900 to-orange-900 bg-clip-text text-transparent text-7xl font-mono font-black p-4 sm:text-5xl">
           Happy first year Anniversary!
         </h1>
       </div>
